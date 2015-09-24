@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6A45A03D1BB1ECA200CB0F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A45A03C1BB1ECA200CB0F52 /* AppDelegate.swift */; };
-		6A45A03F1BB1ECA200CB0F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A45A03E1BB1ECA200CB0F52 /* ViewController.swift */; };
 		6A45A0421BB1ECA200CB0F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A45A0401BB1ECA200CB0F52 /* Main.storyboard */; };
 		6A45A0441BB1ECA200CB0F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A45A0431BB1ECA200CB0F52 /* Assets.xcassets */; };
 		6A45A0471BB1ECA200CB0F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A45A0451BB1ECA200CB0F52 /* LaunchScreen.storyboard */; };
+		6A45A04F1BB1F04800CB0F52 /* THMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A45A04E1BB1F04800CB0F52 /* THMainVC.swift */; settings = {ASSET_TAGS = (); }; };
+		6A45A0511BB1FCEF00CB0F52 /* THCommentsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A45A0501BB1FCEF00CB0F52 /* THCommentsTVC.swift */; settings = {ASSET_TAGS = (); }; };
+		6A45A0531BB2099700CB0F52 /* THTransitCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A45A0521BB2099700CB0F52 /* THTransitCenter.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A45A0391BB1ECA200CB0F52 /* TableHotelSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableHotelSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A45A03C1BB1ECA200CB0F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A45A03E1BB1ECA200CB0F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A45A0411BB1ECA200CB0F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A45A0431BB1ECA200CB0F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A45A0461BB1ECA200CB0F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A45A0481BB1ECA200CB0F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A45A04E1BB1F04800CB0F52 /* THMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THMainVC.swift; sourceTree = "<group>"; };
+		6A45A0501BB1FCEF00CB0F52 /* THCommentsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THCommentsTVC.swift; sourceTree = "<group>"; };
+		6A45A0521BB2099700CB0F52 /* THTransitCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THTransitCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,9 @@
 		6A45A0301BB1ECA200CB0F52 = {
 			isa = PBXGroup;
 			children = (
+				6A45A0521BB2099700CB0F52 /* THTransitCenter.swift */,
+				6A45A0501BB1FCEF00CB0F52 /* THCommentsTVC.swift */,
+				6A45A04E1BB1F04800CB0F52 /* THMainVC.swift */,
 				6A45A03B1BB1ECA200CB0F52 /* TableHotelSwift */,
 				6A45A03A1BB1ECA200CB0F52 /* Products */,
 			);
@@ -55,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				6A45A03C1BB1ECA200CB0F52 /* AppDelegate.swift */,
-				6A45A03E1BB1ECA200CB0F52 /* ViewController.swift */,
 				6A45A0401BB1ECA200CB0F52 /* Main.storyboard */,
 				6A45A0431BB1ECA200CB0F52 /* Assets.xcassets */,
 				6A45A0451BB1ECA200CB0F52 /* LaunchScreen.storyboard */,
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A45A03F1BB1ECA200CB0F52 /* ViewController.swift in Sources */,
 				6A45A03D1BB1ECA200CB0F52 /* AppDelegate.swift in Sources */,
+				6A45A0511BB1FCEF00CB0F52 /* THCommentsTVC.swift in Sources */,
+				6A45A0531BB2099700CB0F52 /* THTransitCenter.swift in Sources */,
+				6A45A04F1BB1F04800CB0F52 /* THMainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +255,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableHotelSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.glifn..TableHotelSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,6 +267,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableHotelSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.glifn..TableHotelSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
